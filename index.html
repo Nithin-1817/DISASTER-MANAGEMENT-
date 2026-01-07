@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Disaster Alert & Awareness System</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Disaster Alert & Awareness System</h1>
+    <p>Learning • Awareness • Community Support</p>
+</header>
+
+<!-- Dropdown -->
+<div class="select-box">
+    <select onchange="selectDisaster(this.value)">
+        <option value="">Select Disaster</option>
+        <option value="flood">Flood</option>
+        <option value="earthquake">Earthquake</option>
+        <option value="cyclone">Cyclone</option>
+        <option value="fire">Fire</option>
+        <option value="landslide">Landslide</option>
+        <option value="heatwave">Heatwave</option>
+    </select>
+</div>
+
+<!-- Disaster Cards -->
+<div class="card-container">
+
+    <div class="card" onclick="selectDisaster('flood')">
+        <img src="images/flood.jpg">
+        <h3>Flood</h3>
+    </div>
+
+    <div class="card" onclick="selectDisaster('earthquake')">
+        <img src="images/earthquake.jpg">
+        <h3>Earthquake</h3>
+    </div>
+
+    <div class="card" onclick="selectDisaster('cyclone')">
+        <img src="images/cyclone.jpg">
+        <h3>Cyclone</h3>
+    </div>
+
+    <div class="card" onclick="selectDisaster('fire')">
+        <img src="images/fire.jpg">
+        <h3>Fire</h3>
+    </div>
+
+    <div class="card" onclick="selectDisaster('landslide')">
+        <img src="images/landslide.jpg">
+        <h3>Landslide</h3>
+    </div>
+
+    <div class="card" onclick="selectDisaster('heatwave')">
+        <img src="images/heatwave.jpg">
+        <h3>Heatwave</h3>
+    </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
