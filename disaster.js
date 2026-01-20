@@ -13,12 +13,12 @@ const content = document.getElementById("tabContent");
 const data = {
 
     flood: {
-        about: "Flood is a natural disaster caused by heavy rainfall leading to overflow of rivers and water bodies. It affects life, agriculture and infrastructure.",
-        causes: "Heavy rainfall, river overflow, dam failure and poor drainage systems.",
+        about: "Floods are the most frequent type of natural disaster and occur when an overflow of water submerges land that is usually dry. Floods are often caused by heavy rainfall, rapid snowmelt or a storm surge from a tropical cyclone or tsunami in coastal areas.",
+        causes: "Floods are caused by heavy, prolonged rainfall or intense, short-duration downpours overwhelming drainage systems, rapid snowmelt, storm surges from hurricanes or high tides, and failures of dams or levees, with human factors like deforestation, urbanization, and poor land use exacerbating natural events by increasing runoff and reducing water absorption. ",
         emergency: "Emergency: 112 | NDRF: 9711077372 | Ambulance: 108",
-        before: "Prepare emergency kit, identify shelters and follow weather alerts.",
-        during: "Move to higher ground and avoid flood water. Switch off electricity.",
-        after: "Return only after clearance. Drink safe water and clean surroundings.",
+        before: "Prepare emergency kit, identify shelters and follow weather alerts.To prepare for a flood, you should: Avoid building in flood prone areas unless you elevate and reinforce your home. Elevate the furnace, water heater, and electric panel if susceptible to flooding. Install Check Valves in sewer traps to prevent floodwater from backing up into the drains of your home.",
+        during: "Move to higher ground and avoid flood water. Switch off electricity.If there is any possibility of a flash flood, move immediately to higher ground. Do not wait for instructions to move. Be aware of streams, drainage channels, canyons, and other areas known to flood suddenly. Flash floods can occur in these areas with or without such typical warnings as rain clouds or heavy rain.",
+        after: "Be aware of areas where water has receded. Roadways may have weakened and could collapse. Avoid downed power lines and muddy waters where power lines may have fallen. Do not drink tap water until advised by the Health Unit that the water is safe to drink.",
         dos: ["Switch off electricity", "Carry emergency kit", "Follow alerts"],
         donts: ["Do not walk in flood water", "Do not touch wires", "Do not panic"],
         quiz: [
